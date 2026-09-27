@@ -1,0 +1,14 @@
+[project]
+name = "engineering-intelligence-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ipykernel>=7.3.0",
+    "openai>=3.16.2",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "tiktoken>=0.14.0",
+]
